@@ -1,0 +1,203 @@
+html {
+  background: url(label.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+img {
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+
+/* Inputs */
+a,
+input {
+  font-family: "Open Sans Condensed", sans-serif;
+  text-decoration: none;
+  position: relative;
+  width: 80%;
+  display: block;
+  margin: 9px auto;
+  font-size: 17px;
+  color: #fff;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background: rgba(3, 3, 3, 0.1);
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  -o-transition: all 2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 3px 3px 10px #333;
+  background: rgba(3, 3, 3, 0.18);
+}
+
+/* Placeholders */
+::-webkit-input-placeholder {
+  color: #ddd;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: red;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: red;
+}
+:-ms-input-placeholder {
+  color: #333;
+}
+
+.autorization {
+  background-color: #99a09b;
+  position: relative;
+  border: 1px solid;
+  border-color: rgb(70, 117, 106);
+  border-radius: 5px;
+  width: 25%;
+  margin: 0 auto;
+  padding: 5px;
+  top: 50px;
+}
+
+.autorization-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* button  */
+
+button {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  background: rgb(187, 57, 57);
+  transition: 0.2s;
+  width: 140px;
+  margin: 15px;
+}
+button:hover {
+  background: rgb(53, 167, 110);
+  cursor: pointer;
+}
+button:active {
+  background: rgb(33, 147, 90);
+  box-shadow: 0 3px rgb(33, 147, 90) inset;
+}
+
+/* HEADER in HOME */
+
+.header-panel {
+  height: 50px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #231f19;
+}
+
+.welcome-block {
+  font-size: 50px;
+  color: rgb(241, 241, 241);
+}
+
+.writing-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+/* message form */
+.message-block {
+  position: relative;
+  margin: 0 auto;
+  border: 1px solid;
+  height: 600px;
+  width: 60%;
+  background-color: #231f19;
+  overflow-y: scroll;
+}
+
+.container-message {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 25px;
+  position: relative;
+  background: #3d968b;
+  color: white;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.8);
+}
+
+.modal-success-registrations {
+  background-color: #99a09b;
+  color: #fff;
+  font-family: "cursive";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 150px;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.modal-window-header {
+  position: relative;
+  height: 50px;
+}
+
+.modal-window-title {
+  font-size: 30px;
+}
+
+.close-modal-window {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 30px;
+  margin: 0;
+}
